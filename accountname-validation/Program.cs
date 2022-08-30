@@ -25,6 +25,8 @@ namespace ConsoleApplication1
             Console.WriteLine(result4);
             bool result5 = Syarpa("Micheal Ayodeji-Ogundero", "Micheal, OgunderoAyodeji");
             Console.WriteLine(result5);
+            bool result6 = Syarpa("MichealAyodejiOgundero", "Micheal Ogundero");
+            Console.WriteLine(result6);
 
         }
         public static bool Syarpa(string syarpa_name, string bank_name)
@@ -44,43 +46,17 @@ namespace ConsoleApplication1
 
             if (bank_name_array.Length == 2)
             {
-                if (syarpa_name_array.Length == 2)
+                int counter = 0;
+                foreach (string name in bank_name_array)
                 {
-                    int counter = 0;
-                    foreach (string name in syarpa_name_array)
+                    if (syarpa_name_array.Contains(name))
                     {
-                        if (bank_name_array.Contains(name))
-                        {
-                            counter += 1;
-                        }
-                    }
-                    if (counter >= 2)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
+                        counter ++;
                     }
                 }
-                else if (syarpa_name_array.Length == 3)
+                if (counter >= 2)
                 {
-                    int counter = 0;
-                    foreach (string name in bank_name_array)
-                    {
-                        if (syarpa_name_array.Contains(name))
-                        {
-                            counter += 1;
-                        }
-                    }
-                    if (counter >= 2)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                    return true;
                 }
                 else
                 {
@@ -90,43 +66,17 @@ namespace ConsoleApplication1
 
             else if (bank_name_array.Length == 3)
             {
-                if (syarpa_name_array.Length == 2)
+                int counter = 0;
+                foreach (string name in syarpa_name_array)
                 {
-                    int counter = 0;
-                    foreach (string name in syarpa_name_array)
+                    if (bank_name_array.Contains(name))
                     {
-                        if (bank_name_array.Contains(name))
-                        {
-                            counter += 1;
-                        }
-                    }
-                    if (counter >= 2)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
+                        counter ++;
                     }
                 }
-                else if (syarpa_name_array.Length == 3)
+                if (counter >= 2)
                 {
-                    int counter = 0;
-                    foreach (string name in syarpa_name_array)
-                    {
-                        if (bank_name_array.Contains(name))
-                        {
-                            counter += 1;
-                        }
-                    }
-                    if (counter >= 3)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                    return true;
                 }
                 else
                 {
