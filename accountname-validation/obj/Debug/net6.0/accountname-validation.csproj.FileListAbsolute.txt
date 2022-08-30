@@ -1,0 +1,15 @@
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\bin\Debug\net6.0\accountname-validation.exe
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\bin\Debug\net6.0\accountname-validation.deps.json
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\bin\Debug\net6.0\accountname-validation.runtimeconfig.json
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\bin\Debug\net6.0\accountname-validation.dll
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\bin\Debug\net6.0\accountname-validation.pdb
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.csproj.AssemblyReference.cache
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.AssemblyInfoInputs.cache
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.AssemblyInfo.cs
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.csproj.CoreCompileInputs.cache
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.dll
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\refint\accountname-validation.dll
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.pdb
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\accountname-validation.genruntimeconfig.cache
+C:\Users\Eyiza\source\repos\accountname-validation\accountname-validation\obj\Debug\net6.0\ref\accountname-validation.dll
